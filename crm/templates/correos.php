@@ -119,7 +119,8 @@
                 </div>
 
                 <div id="email-preview">
-                    <iframe class="container" id="emailPreviewContainer" src="../mail/templates/2022/BoillerPlate_2022" width="650" frameborder="0"></iframe>
+                    <?php include "../mail/templates/2022/BoillerPlate_2022/index.html" ?>
+                    <!-- <iframe class="container" id="emailPreviewContainer" src="../mail/templates/2022/BoillerPlate_2022" width="650" frameborder="0"></iframe> -->
                 </div>
             </div>
         </aside>
