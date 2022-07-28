@@ -534,7 +534,6 @@ main#new-client-page .wrapper .aside {
 #gmail-preview #email-preview {
     width: 100%;
     height: calc(100% - 60px);
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
