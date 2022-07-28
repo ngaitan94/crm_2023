@@ -1,4 +1,6 @@
 //VARIABLES
+
+
     //Centro de correos
     const emailSenderForm = document.getElementById('email-sender');
     const emailPreviewContainer = document.getElementById('emailPreviewContainer');
@@ -23,9 +25,9 @@
     const emailClientPreview = document.getElementById('emailClient__preview');
 
     //Centro de correos - HTML email variables
-    let nameClientVariable = emailPreviewContainer.contentWindow.document.getElementById("nameClientVariable");
-    //const preheaderVariable = emailPreviewContainer.contentWindow.document.getElementById("preheaderVariable");
-    //const messageVariable = emailPreviewContainer.contentWindow.document.getElementById("messageVariable");
+    let nameClientVariable = document.getElementById("nameClientVariable");
+    const preheaderVariable = document.getElementById("preheaderVariable");
+    const messageVariable = document.getElementById("messageVariable");
 
     //Centro de correos - Button actions
     const sendButton = document.getElementById('sendButton');
@@ -105,7 +107,7 @@ function switchTypeEmail(emailtype) {
             subjectPreview.innerHTML = subjectInput.value;
             preheaderInput.value = "Todo comienzo tiene su encanto.";
             preheaderPreview.innerHTML = preheaderInput.value;
-            let nameClientVariable = emailPreviewContainer.contentWindow.document.getElementById("nameClientVariable");
+            nameClientVariable = document.getElementById("nameClientVariable");
 
 
 
@@ -122,7 +124,7 @@ function switchTypeEmail(emailtype) {
             subjectPreview.innerHTML = subjectInput.value;
             preheaderInput.value = "Checklist Inadaptado.";
             preheaderPreview.innerHTML = preheaderInput.value;
-            let nameClientVariable = emailPreviewContainer.contentWindow.document.getElementById("nameClientVariable");
+            nameClientVariable = document.getElementById("nameClientVariable");
 
 
 
